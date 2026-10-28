@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Lokale miljøvariabler
+.env
+
+# Datafiler, som hovedregel
+data/raw/*
+data/processed/*
+
+# Behold tomme datamapper
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Mac
+.DS_Store
+
+# Midlertidige filer
+*.log
